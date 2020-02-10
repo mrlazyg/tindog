@@ -6,7 +6,8 @@ body {
   padding: 3% 10%;
 }
 
-/* id=title */
+/* Top Container */
+/* title */
 
 #title {
   background-color: #ff4c68;
@@ -43,7 +44,7 @@ h1 {
 
 /* Download Button */
 
-.dl-btn {
+.download-btn {
   margin: 7% 5% 7% 0;
 }
 
@@ -52,4 +53,17 @@ h1 {
 .iPhone {
   width: 60%;
   transform: rotate(30deg);
+}
+
+/* Middle Container */
+
+h3 {
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Icon */
+
+.icon {
+  text-align: center;
 }
