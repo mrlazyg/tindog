@@ -6,11 +6,11 @@ body {
   padding: 3% 10%;
 }
 
-/* Top Container */
-/* title */
+/* title section*/
 
 #title {
-  background-color: #ff4c68;
+  /* background-color: #ff4c68; */
+  background-color: #fb4d3d;
   color: #fff;
 }
 
@@ -19,6 +19,15 @@ h1 {
   font-size: 3.5rem;
   font-weight: bold;
   /* line-height: 1.5; */
+}
+
+h3 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
 }
 
 /* Navigaton Bar */
@@ -48,22 +57,29 @@ h1 {
   margin: 7% 5% 7% 0;
 }
 
-/* Top Image iPhone */
+/* iPhone */
 
 .iPhone {
   width: 60%;
   transform: rotate(30deg);
 }
 
-/* Middle Container */
+/* features section */
 
-h3 {
-  font-weight: bold;
+#features {
+  padding: 7% 10%;
+}
+
+.feature-box {
+  padding: 5%;
   text-align: center;
 }
 
-/* Icon */
-
 .icon {
-  text-align: center;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #fb4d3d;
 }
