@@ -134,3 +134,14 @@ p {
 .pricing-col {
   padding: 3% 2%;
 }
+
+.btn-outline-danger {
+  color: #ef8172;
+  border-color: #ef8172;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #ef8172;
+  border-color: #ef8172;
+}
