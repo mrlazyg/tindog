@@ -3,7 +3,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 10%;
+  padding: 3% 10% 10%;
 }
 
 /* title section*/
@@ -70,12 +70,15 @@ p {
 .iPhone {
   width: 60%;
   transform: rotate(30deg);
+  position: absolute;
 }
 
 /* features section */
 
 #features {
   padding: 7% 10%;
+  position: relative;
+  background-color: #fff;
 }
 
 .feature-box {
@@ -119,4 +122,26 @@ p {
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 7% 10%;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.btn-outline-danger {
+  color: #ef8172;
+  border-color: #ef8172;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #ef8172;
+  border-color: #ef8172;
 }
