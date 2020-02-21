@@ -181,6 +181,10 @@ p {
   color: #d6249f;
 }
 
+.git-icon {
+  color: #000;
+}
+
 @media (max-width: 991px) {
   #title {
     text-align: center;
