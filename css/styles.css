@@ -146,3 +146,14 @@ p {
   background-color: #ef8172;
   border-color: #ef8172;
 }
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .iPhone {
+    position: static;
+    transform: rotate(0);
+  }
+}
