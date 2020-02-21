@@ -157,8 +157,12 @@ p {
 }
 
 #footer {
-  padding: 7% 10%;
+  padding: 5% 10%;
   text-align: center;
+}
+
+#footer p {
+  color: #fb4d3d;
 }
 
 .social-icon {
@@ -175,6 +179,10 @@ p {
 
 .instagram-icon {
   color: #d6249f;
+}
+
+.git-icon {
+  color: #000;
 }
 
 @media (max-width: 991px) {
